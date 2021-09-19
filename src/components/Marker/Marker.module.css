@@ -1,0 +1,11 @@
+.marker {
+  display: inline-block;
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  background-color: #25252d;
+}
+
+.active {
+  background-color: #5358a5;
+}
