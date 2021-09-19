@@ -1,7 +1,7 @@
-function App() {
-  return (
-    <h1>Hello World!</h1>
-  );
-}
+import Container from "./components/Container";
+
+const App = () => {
+  return <Container></Container>;
+};
 
 export default App;
