@@ -1,0 +1,36 @@
+.navItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #e0e0e0;
+  padding: 16px 32px 16px 24px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navItem:hover {
+  color: #fafafa;
+}
+
+.collapse {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  margin-right: 32px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.dropDownItem {
+  padding: 16px;
+  border-radius: 10px;
+  color: #212121;
+}
+
+.dropDownItem:hover {
+  background-color: #bdbdbd;
+}
