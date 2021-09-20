@@ -1,0 +1,9 @@
+.feature {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.textColor {
+  color: #2196f3;
+}
