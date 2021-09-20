@@ -1,8 +1,8 @@
 import Marker from "../Marker";
 
-import styles from "./FeatureHeader.module.css";
+import styles from "./NavFeatureHeader.module.css";
 
-const FeatureHeader = () => {
+const NavFeatureHeader = () => {
   return (
     <div className={styles.header}>
       <div>Featured Post</div>
@@ -15,4 +15,4 @@ const FeatureHeader = () => {
   );
 };
 
-export default FeatureHeader;
+export default NavFeatureHeader;
