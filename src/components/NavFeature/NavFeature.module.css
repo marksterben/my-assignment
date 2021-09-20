@@ -1,0 +1,11 @@
+.featured {
+  width: 100%;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+.featured hr {
+  margin: 16px 32px 16px 24px;
+  border: 0;
+  border-top: 1px solid #25252d;
+}
