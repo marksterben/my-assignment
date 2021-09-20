@@ -15,7 +15,7 @@ const SearchBar = () => {
         className={styles.searchInput}
       />
       <button type="button" className={styles.searchBtn}>
-        <i class="fas fa-search fa-rotate-90"></i>
+        <i className="fas fa-search fa-rotate-90"></i>
       </button>
     </div>
   );
