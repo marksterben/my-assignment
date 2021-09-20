@@ -1,7 +1,7 @@
-import styles from "./FeatureBody.module.css";
+import styles from "./NavFeatureBody.module.css";
 import featuredPost from "../../assets/images/featured_post_01.jpg";
 
-const FeatureBody = () => {
+const NavFeatureBody = () => {
   return (
     <div className={styles.body}>
       <img className={styles.img} src={featuredPost} alt="" />
@@ -12,4 +12,4 @@ const FeatureBody = () => {
   );
 };
 
-export default FeatureBody;
+export default NavFeatureBody;

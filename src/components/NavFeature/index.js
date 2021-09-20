@@ -1,4 +1,4 @@
-import FeatureBody from "../FeatureBody";
+import NavFeatureBody from "../NavFeatureBody";
 import NavFeatureHeader from "../NavFeatureHeader";
 
 import styles from "./NavFeature.module.css";
@@ -8,7 +8,7 @@ const NavFeature = () => {
     <div className={styles.featured}>
       <NavFeatureHeader />
       <hr />
-      <FeatureBody />
+      <NavFeatureBody />
     </div>
   );
 };
