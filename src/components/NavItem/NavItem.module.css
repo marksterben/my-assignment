@@ -29,6 +29,7 @@
   padding: 16px;
   border-radius: 10px;
   color: #212121;
+  cursor: pointer;
 }
 
 .dropDownItem:hover {
