@@ -34,9 +34,16 @@
   font-weight: bold;
   color: #535ca1;
   padding: 8px;
+  cursor: pointer;
 }
 
 .btn:hover {
   background-color: #535ca1;
   color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .left {
+    flex-flow: column wrap;
+  }
 }

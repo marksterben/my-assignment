@@ -21,6 +21,7 @@
   font-weight: bold;
   color: #535ca1;
   padding: 8px;
+  cursor: pointer;
 }
 
 .btn:hover {
