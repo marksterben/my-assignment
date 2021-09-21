@@ -6,11 +6,9 @@ import leftImage from "../../assets/images/left-image.jpg";
 const LeftPost = () => {
   return (
     <div className={styles.left}>
-      <img
-        className={classNames(styles.col, styles.space, styles.imgFluid)}
-        src={leftImage}
-        alt=""
-      />
+      <div className={classNames(styles.col, styles.space)}>
+        <img className={styles.imgFluid} src={leftImage} alt="" />
+      </div>
       <div className={styles.col}>
         <p className={styles.title}>Ante Interdum Raclette</p>
         <p className={styles.text}>

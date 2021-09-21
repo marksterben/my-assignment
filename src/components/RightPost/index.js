@@ -6,11 +6,9 @@ import rightImage from "../../assets/images/right-image.jpg";
 const RightPost = () => {
   return (
     <div className={styles.right}>
-      <img
-        className={classNames(styles.col, styles.space, styles.imgFluid)}
-        src={rightImage}
-        alt=""
-      />
+      <div className={classNames(styles.col, styles.space)}>
+        <img className={styles.imgFluid} src={rightImage} alt="" />
+      </div>
       <div className={styles.col}>
         <p className={styles.title}>Ante Interdum Raclette</p>
         <p className={styles.text}>
