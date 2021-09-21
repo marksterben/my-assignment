@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 70px 16px 24px;
+  background-color: #535ca1;
+  height: 70px;
+}
+
+.sidebarToggle {
+  background-color: #535ca1;
+  color: #fbfffa;
+  border: 0;
+  font-size: 24px;
+}
+
+.brand {
+  font-weight: bold;
+  text-decoration: none;
+  color: #fbfffa;
+  font-size: 24px;
+}

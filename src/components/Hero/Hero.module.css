@@ -1,0 +1,47 @@
+.hero {
+  display: flex;
+  width: 100%;
+  padding: 45px;
+  background: url(../../assets/images/main-banner.jpg) no-repeat;
+  background-size: cover;
+}
+
+.heroCard {
+  background-color: rgb(255, 255, 255, 0.9);
+  padding: 45px;
+}
+
+.cardTitle {
+  margin: 0;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.cardSubtitle {
+  font-size: 16px;
+  margin: 20px 0;
+  color: #bfbfbf;
+}
+
+.cardText {
+  font-size: 16px;
+  color: #a6a6a6;
+}
+
+.btn {
+  background-color: rgb(255, 255, 255, 0.9);
+  border: 2px solid #535ca1;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #535ca1;
+  padding: 8px;
+}
+
+.btn:hover {
+  background-color: #535ca1;
+  color: white;
+}
+
+.textColor {
+  color: #535ca1;
+}

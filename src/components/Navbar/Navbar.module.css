@@ -1,0 +1,10 @@
+.navbar {
+  flex: 2;
+  background-color: #25252d;
+  margin: 0;
+  padding: 0;
+}
+
+.toggle {
+  display: none;
+}

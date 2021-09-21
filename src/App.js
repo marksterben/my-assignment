@@ -1,7 +1,22 @@
-function App() {
+import { useState } from "react";
+
+import Container from "./components/Container";
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
+
+const App = () => {
+  const [click, setClick] = useState(false);
+
+  const sidebarHandler = () => {
+    setClick(!click);
+  };
+
   return (
-    <h1>Hello World!</h1>
+    <Container>
+      <Navbar click={click} />
+      <Main sidebarHandler={sidebarHandler} />
+    </Container>
   );
-}
+};
 
 export default App;
