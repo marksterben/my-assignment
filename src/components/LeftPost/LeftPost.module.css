@@ -1,0 +1,42 @@
+.left {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+}
+
+.space {
+  margin-right: 10px;
+}
+
+.imgFluid {
+  width: 100%;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.text {
+  font-size: 14px;
+  color: #a6a6a6;
+}
+
+.btn {
+  background-color: rgb(255, 255, 255, 0.9);
+  border: 2px solid #535ca1;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #535ca1;
+  padding: 8px;
+}
+
+.btn:hover {
+  background-color: #535ca1;
+  color: white;
+}
