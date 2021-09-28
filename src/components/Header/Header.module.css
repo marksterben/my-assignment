@@ -28,3 +28,9 @@
     padding: 0 30px;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .header {
+    padding: 0 40px;
+  }
+}

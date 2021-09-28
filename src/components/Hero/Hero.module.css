@@ -56,3 +56,23 @@
     padding: 40px;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .cardTitle {
+    font-size: 32px;
+  }
+
+  .cardSubtitle {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+
+  .cardText {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+
+  .btn {
+    padding: 8px;
+  }
+}
