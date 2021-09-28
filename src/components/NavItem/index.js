@@ -9,9 +9,10 @@ const NavItem = ({ title, isDropdown = false }) => {
 
   return (
     <li>
-      <span className={styles.navItem} onClick={() => setVisible(!visible)}>
-        {title} {isDropdown && <i className="fas fa-caret-down"></i>}
-      </span>
+      <div className={styles.navItem} onClick={() => setVisible(!visible)}>
+        <span>{title}</span>{" "}
+        {isDropdown && <i className="fas fa-caret-down"></i>}
+      </div>
       {isDropdown
         ? visible && (
             <div className={styles.collapse}>
