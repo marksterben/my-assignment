@@ -1,49 +1,30 @@
-.right {
-  display: flex;
-  flex-flow: row-reverse wrap;
-}
-
-.col {
-  flex: 1;
-}
-
-.space {
-  margin-left: 10px;
-}
-
-.imgFluid {
-  width: 100%;
+.img {
+  max-width: 100%;
 }
 
 .title {
   font-size: 20px;
   font-weight: bold;
-  margin: 0;
-  margin-bottom: 30px;
+  margin: 15px 0;
 }
 
 .text {
   font-size: 14px;
   color: #a6a6a6;
+  margin: 15px 0;
 }
 
 .btn {
   background-color: rgb(255, 255, 255, 0.9);
   border: 2px solid #535ca1;
-  margin-top: 30px;
   font-weight: bold;
   color: #535ca1;
-  padding: 8px;
+  padding: 5px;
+  transition: 0.3s;
   cursor: pointer;
 }
 
 .btn:hover {
   background-color: #535ca1;
   color: white;
-}
-
-@media only screen and (max-width: 800px) {
-  .right {
-    flex-flow: column wrap;
-  }
 }
