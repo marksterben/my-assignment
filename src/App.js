@@ -5,15 +5,15 @@ import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 
 const App = () => {
-  const [click, setClick] = useState(false);
+  const [hide, setHide] = useState(false);
 
   const sidebarHandler = () => {
-    setClick(!click);
+    setHide(!hide);
   };
 
   return (
-    <Container>
-      <Navbar click={click} />
+    <Container hide={hide}>
+      {!hide && <Navbar />}
       <Main sidebarHandler={sidebarHandler} />
     </Container>
   );

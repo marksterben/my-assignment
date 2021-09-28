@@ -1,14 +1,12 @@
 .searchContainer {
-  display: flex;
-  width: 100%;
+  display: grid;
+  grid-template-columns: 9fr 1fr;
   height: 70px;
   background-color: #2e2e3a;
-  margin: 0;
   padding: 14px 32px 14px 24px;
 }
 
 .searchInput {
-  flex: 9;
   font-size: 14px;
   background-color: #2e2e3a;
   border: 0;
@@ -17,7 +15,6 @@
 }
 
 .searchBtn {
-  flex: 1;
   font-size: 14px;
   background-color: #2e2e3a;
   border: 0;

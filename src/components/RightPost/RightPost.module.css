@@ -1,39 +1,26 @@
-.right {
-  display: flex;
-  flex-flow: row-reverse wrap;
-}
-
-.col {
-  flex: 1;
-}
-
-.space {
-  margin-left: 10px;
-}
-
-.imgFluid {
+.img {
   width: 100%;
 }
 
 .title {
   font-size: 20px;
   font-weight: bold;
-  margin: 0;
-  margin-bottom: 30px;
+  margin: 15px 0;
 }
 
 .text {
   font-size: 14px;
   color: #a6a6a6;
+  margin: 15px 0;
 }
 
 .btn {
   background-color: rgb(255, 255, 255, 0.9);
   border: 2px solid #535ca1;
-  margin-top: 30px;
   font-weight: bold;
   color: #535ca1;
-  padding: 8px;
+  padding: 5px;
+  transition: 0.3s;
   cursor: pointer;
 }
 
@@ -42,8 +29,23 @@
   color: white;
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (min-width: 768px) {
   .right {
-    flex-flow: column wrap;
+    display: grid;
+    grid-template-areas: "text image";
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .title {
+    margin: 0;
+  }
+
+  .imagePost {
+    grid-area: image;
+  }
+
+  .textPost {
+    grid-area: text;
   }
 }

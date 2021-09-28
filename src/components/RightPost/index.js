@@ -1,15 +1,13 @@
-import classNames from "classnames";
-
 import styles from "./RightPost.module.css";
 import rightImage from "../../assets/images/right-image.jpg";
 
 const RightPost = () => {
   return (
     <div className={styles.right}>
-      <div className={classNames(styles.col, styles.space)}>
-        <img className={styles.imgFluid} src={rightImage} alt="" />
+      <div className={styles.imagePost}>
+        <img className={styles.img} src={rightImage} alt="" />
       </div>
-      <div className={styles.col}>
+      <div className={styles.textPost}>
         <p className={styles.title}>Ante Interdum Raclette</p>
         <p className={styles.text}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis est

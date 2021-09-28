@@ -1,11 +1,30 @@
 .body {
-  display: flex;
-  flex-direction: column;
-  padding: 70px;
+  width: 100%;
+  padding: 20px;
 }
 
 .body hr {
-  margin: 70px 0;
+  margin: 20px 0;
   border: 0;
   border-top: 1px solid #eeeeee;
+}
+
+@media screen and (min-width: 768px) {
+  .body {
+    padding: 30px;
+  }
+
+  .body hr {
+    margin: 30px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .body {
+    padding: 40px;
+  }
+
+  .body hr {
+    margin: 40px 0;
+  }
 }
