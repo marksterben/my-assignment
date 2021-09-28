@@ -5,7 +5,9 @@ import topImage from "../../assets/images/top-image.jpg";
 const TopPost = () => {
   return (
     <div>
-      <img className={styles.imgFluid} src={topImage} alt="" />
+      <div>
+        <img className={styles.img} src={topImage} alt="" />
+      </div>
       <p className={styles.title}>Ante Interdum Chambray</p>
       <p className={styles.text}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis est risus,
