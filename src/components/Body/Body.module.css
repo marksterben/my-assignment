@@ -1,11 +1,10 @@
 .body {
-  display: flex;
-  flex-direction: column;
-  padding: 70px;
+  width: 100%;
+  padding: 20px;
 }
 
 .body hr {
-  margin: 70px 0;
+  margin: 20px 0;
   border: 0;
   border-top: 1px solid #eeeeee;
 }
