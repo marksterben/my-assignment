@@ -22,3 +22,9 @@
   color: #fbfffa;
   font-size: 24px;
 }
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 0 30px;
+  }
+}

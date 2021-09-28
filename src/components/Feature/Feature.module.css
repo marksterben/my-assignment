@@ -7,3 +7,9 @@
 .textColor {
   color: #2196f3;
 }
+
+@media screen and (min-width: 768px) {
+  .feature {
+    grid-template-columns: 1fr 1fr;
+  }
+}
