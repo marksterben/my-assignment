@@ -28,3 +28,24 @@
   background-color: #535ca1;
   color: white;
 }
+
+@media screen and (min-width: 768px) {
+  .right {
+    display: grid;
+    grid-template-areas: "text image";
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .title {
+    margin: 0;
+  }
+
+  .imagePost {
+    grid-area: image;
+  }
+
+  .textPost {
+    grid-area: text;
+  }
+}
