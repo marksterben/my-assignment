@@ -1,15 +1,13 @@
-import classNames from "classnames";
-
 import styles from "./LeftPost.module.css";
 import leftImage from "../../assets/images/left-image.jpg";
 
 const LeftPost = () => {
   return (
     <div className={styles.left}>
-      <div className={classNames(styles.col, styles.space)}>
-        <img className={styles.imgFluid} src={leftImage} alt="" />
+      <div>
+        <img className={styles.img} src={leftImage} alt="" />
       </div>
-      <div className={styles.col}>
+      <div>
         <p className={styles.title}>Ante Interdum Raclette</p>
         <p className={styles.text}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis est
