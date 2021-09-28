@@ -1,29 +1,23 @@
 .featureCard {
-  display: flex;
-  flex-direction: column;
-  flex: 30%;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  padding: 20px;
+  gap: 10px;
+  text-align: center;
   background-color: #eaebef;
-  padding: 45px;
   cursor: pointer;
 }
 
 .cardImg {
-  width: 42px;
+  max-width: 100%;
 }
 
 .cardTitle {
   font-size: 20px;
   font-weight: bold;
-  margin: 20px 0;
 }
 
 .cardText {
-  text-align: center;
   font-size: 14px;
-  margin: 0;
   color: #a6a6a6;
+  text-align: center;
 }
