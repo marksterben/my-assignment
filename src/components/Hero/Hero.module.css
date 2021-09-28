@@ -1,40 +1,39 @@
 .hero {
-  display: flex;
   width: 100%;
-  padding: 45px;
+  padding: 20px;
   background: url(../../assets/images/main-banner.jpg) no-repeat;
   background-size: cover;
 }
 
 .heroCard {
   background-color: rgb(255, 255, 255, 0.9);
-  padding: 45px;
+  padding: 20px;
 }
 
 .cardTitle {
-  margin: 0;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 26px;
 }
 
 .cardSubtitle {
-  font-size: 16px;
-  margin: 20px 0;
+  font-size: 14px;
   color: #bfbfbf;
+  margin: 15px 0;
 }
 
 .cardText {
-  font-size: 16px;
+  font-size: 14px;
   color: #a6a6a6;
+  margin: 15px 0;
 }
 
 .btn {
   background-color: rgb(255, 255, 255, 0.9);
   border: 2px solid #535ca1;
-  margin-top: 20px;
   font-weight: bold;
   color: #535ca1;
-  padding: 8px;
+  padding: 5px;
+  transition: 0.3s;
   cursor: pointer;
 }
 
